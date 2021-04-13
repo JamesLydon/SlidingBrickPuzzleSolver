@@ -8,7 +8,7 @@ The following Python program solves sliding brick puzzles of relatively complex 
 3-infinity = obstacle blocks
 
 
-This implementation requires the installation of Python3. Specifically, Python 3.7 was used in writing this software. Python 2 is not compatible with this program. Not every version of Python 3 was tested but the program has been tested in Python 3.6 (which tux has installed as python3) and Python 3.7
+This implementation requires the installation of Python3. Specifically, Python 3.7 was used in writing this software. Python 2 is not compatible with this program. Not every version of Python 3 was tested but the program has been tested in Python 3.6 and Python 3.7
 Python 3 can be downloaded from this web URL:
 https://www.python.org/downloads/release/
 
@@ -21,6 +21,6 @@ This implementation can also be run at the command line. One needs only to prefa
 Note: This implementation has been tested on both Windows and Linux, not Mac OSX
 
 
-All files can be solved with all algorithms implemented in this program. The later puzzles may take some time to solve, however. In particular, iterative-deepening search takes very long to solve the latter puzzles. This is due to the intrinsic nature of iterative-deepening wherein it must necessarily repeat the searching of the beginning nodes of the tree many many times. And this is especially true of trees of very large size, such as the solution trees to the later puzzles. Iterative-deepening too will always eventually find a solution though given enough time to process the nodes.
+You can test the slidingbrickpuzzle using the examples provided. The later puzzles may take some time to solve, however. In particular, iterative-deepening search takes very long to solve the latter puzzles. This is due to the intrinsic nature of iterative-deepening wherein it must necessarily repeat the searching of the beginning nodes of the tree many many times. And this is especially true of trees of very large size, such as the solution trees to the later puzzles. Iterative-deepening too will always eventually find a solution though given enough time to process the nodes.
 
 There is also a file in this directory called 'output.txt' which contains the output of this program with time given for all algorithms to process some of the puzzles.
